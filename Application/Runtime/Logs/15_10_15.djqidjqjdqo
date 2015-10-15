@@ -1,0 +1,1744 @@
+[ 2015-10-15T23:22:32+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003099s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-10-15T23:22:45+08:00 ] 0.0.0.0 /weixin/index.php?g=admin
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Undefined index: wadmin /Library/WebServer/Documents/weixin/Application/Lib/Action/admin/PublicAction.class.php 第 4 行.
+
+[ 2015-10-15T23:22:45+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Login&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-10-15T23:22:47+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Login&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.011389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-10-15T23:22:48+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000282s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-10-15T23:22:48+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 58 行.
+
+[ 2015-10-15T23:22:48+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.004909s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.001481s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009144s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-10-15T23:22:48+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000338s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-10-15T23:22:48+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=User&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_user` LIMIT 1   [ RunTime:0.002936s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` LIMIT 0,12   [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001690s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-10-15T23:22:51+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004569s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-10-15T23:22:51+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-10-15T23:22:51+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 58 行.
+
+[ 2015-10-15T23:22:51+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000324s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000220s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000200s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-10-15T23:22:51+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-10-15T23:31:35+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Good&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_good` LIMIT 1   [ RunTime:0.001725s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good` LIMIT 0,12   [ RunTime:0.000541s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.006241s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003708s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2015-10-15T23:31:35+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Order&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` LIMIT 1   [ RunTime:0.001691s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.002113s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='50001' ) LIMIT 1   [ RunTime:0.003038s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='50001' ) LIMIT 1   [ RunTime:0.000292s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='50001' ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='81' ) LIMIT 1   [ RunTime:0.000156s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='248' ) LIMIT 1   [ RunTime:0.000146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='81' ) LIMIT 1   [ RunTime:0.000132s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='81' ) LIMIT 1   [ RunTime:0.000133s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='228' ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='208' ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( 1=1 AND id='81' ) LIMIT 1   [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant cartdata - assumed 'cartdata' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 160 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 167 行.
+NOTIC: [8] Use of undefined constant order_info - assumed 'order_info' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 168 行.
+NOTIC: [8] Undefined variable: menulist /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5ab61e1ac9608f678c1d4daa9b607ba6.php 第 223 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2015-10-15T23:31:36+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=User&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_user` LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` LIMIT 0,12   [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000125s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-15T23:31:37+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.001978s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.001746s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.002702s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001747s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-10-15T23:32:32+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=2c51519e5089e518c917097f469c602f29fad501&echostr=7056276646881394479&timestamp=1444923151&nonce=1353914498
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+
+[ 2015-10-15T23:32:41+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=setconfig
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: UPDATE `wemall_wxconfig` SET `num`='Future小来',`ini_num`='gh_24a6b402cc6f',`token`='123456',`appid`='wxba1a2a71b77b195d',`appsecret`='6b15ea6b2e7a88c490602937420e8711',`encodingaeskey`='6sseiKuTkhvbz7q6MBF5F1vfkkJkh4yrzEKaqCHxBN8',`partnerid`='1221456309',`partnerkey`='songningningwuqiankun11974322SNN' WHERE ( `id` = 1 ) [ RunTime:0.009051s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000375s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-10-15T23:32:42+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-10-15T23:32:46+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Wechat&a=createMenu
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-10-15T23:32:47+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000408s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-10-15T23:33:03+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=3afa2c02c60413735b89d4bb405f1da96885e78e&timestamp=1444923183&nonce=1089835329
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000191s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '1' )  [ RunTime:0.000253s ]
+
+[ 2015-10-15T23:34:29+08:00 ] 182.100.45.134 /weixin/index.php?g=App&amp;m=Member&amp;a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2015-10-15T23:35:10+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=addmessage
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: UPDATE `wemall_wxmessage` SET `type`='1',`title`='回复',`description`='直销360：\r\n1、<a href=\"http:www.baidu.com\">网站</a>\r\n2、<a href=\"http://mp.weixin.qq.com/s?__biz=MzA5Njg1NTAyNw==&amp;mid=852793799&amp;idx=1&amp;sn=029976cc3e5a1210b266e69221ef0813#rd\">关于佣金、提现、售后、物流详细说明</a>\r\n\r\n3、<a href=\"http://mp.weixin.qq.com/s?__biz=MzA5Njg1NTAyNw==&amp;mid=852793799&amp;idx=1&amp;sn=db1b48268ad387ac43063a810a9760e7#rd\">看看如何挣钱</a>\r\n\r\n4、<a href=\"https://qianbao.baidu.com/hd/huafei?invite_code=CHDXE9AF\" se_prerender_url=\"complete\">鸿美琪家族和百度赞助1分钱充5元话费</a>',`url`='',`key`='1' WHERE ( `id` = 8 ) [ RunTime:0.002602s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-10-15T23:35:11+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000247s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000197s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000112s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-10-15T23:35:11+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000121s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000116s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000337s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-10-15T23:35:24+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=5464e6909f1d19da7f3252fb54dea9d43a1461be&timestamp=1444923324&nonce=1951450265
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '1' )  [ RunTime:0.000145s ]
+
+[ 2015-10-15T23:36:03+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=addmessage
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: UPDATE `wemall_wxmessage` SET `type`='1',`title`='回复',`description`='测试',`url`='',`key`='1' WHERE ( `id` = 8 ) [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002504s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000655s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-10-15T23:36:04+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000175s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000174s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000346s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2015-10-15T23:36:10+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=e3363b4413267542dc8e044510614d8923660835&timestamp=1444923370&nonce=590655823
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000284s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '1' )  [ RunTime:0.000243s ]
+
+[ 2015-10-15T23:36:29+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=addmessage
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: UPDATE `wemall_wxmessage` SET `type`='1',`title`='拍拍商城',`description`='<center>\r\n<a href=\"http://shop.paipai.com/330440523\">拍拍商城</a></center>\r\n',`url`='',`key`='2' WHERE ( `id` = 13 ) [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-10-15T23:36:30+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000101s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-10-15T23:36:31+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=ec39e6620d0bd4fd78c599649c7852c46dd45d26&timestamp=1444923391&nonce=2017641182
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000178s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '2' )  [ RunTime:0.000138s ]
+
+[ 2015-10-15T23:36:50+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000126s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000217s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000193s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-10-15T23:36:55+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=delmessage&id=8
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: DELETE FROM `wemall_wxmessage` WHERE ( `id` = 8 ) [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000230s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-10-15T23:36:56+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000184s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000284s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-10-15T23:36:59+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=delmessage&id=12
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: DELETE FROM `wemall_wxmessage` WHERE ( `id` = 12 ) [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000268s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2015-10-15T23:37:00+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000287s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000197s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-10-15T23:37:43+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=addmessage
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: UPDATE `wemall_wxmessage` SET `type`='1',`title`='魏来',`description`='<a href=\"https://github.com/FutureWL\">FutureWL</a>\r\n',`url`='',`key`='2' WHERE ( `id` = 13 ) [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001787s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2015-10-15T23:37:44+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000215s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-10-15T23:37:49+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=74b48c4ced8c6459dd299d48dc9898f227657070&timestamp=1444923469&nonce=304371898
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '2' )  [ RunTime:0.000130s ]
+
+[ 2015-10-15T23:37:50+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000237s ]
+
+[ 2015-10-15T23:38:01+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Wechat&a=createMenu
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2015-10-15T23:38:02+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000190s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-10-15T23:38:09+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=d21cb83273c2bcc6b24f03d25c2a70021d48decd&timestamp=1444923489&nonce=1514500122
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000179s ]
+
+[ 2015-10-15T23:38:26+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=bc08ac2aa25f1924f2735fa58d7f5b0b950191f1&timestamp=1444923506&nonce=1321280929
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'orPNxw1kU3eUQaL9M2SvPAoSZO3k' ) LIMIT 1   [ RunTime:0.001101s ]
+SQL: INSERT INTO `wemall_user` (`wx_info`,`uid`) VALUES ('{\"subscribe\":1,\"openid\":\"orPNxw1kU3eUQaL9M2SvPAoSZO3k\",\"nickname\":\"\\u9b4f\\u6765\",\"sex\":1,\"language\":\"zh_CN\",\"city\":\"\\u5357\\u660c\",\"province\":\"\\u6c5f\\u897f\",\"country\":\"\\u4e2d\\u56fd\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/3tpfKibxpibD9UfbiceVpLHmM1LfFibqVAqAicphX3mGtdEYjhm5osprkJj0vtB84QrNNuLtv7biaEfmoOLia4yBGWeFaOKfsICUZOO\\/0\",\"subscribe_time\":1444923506,\"remark\":\"\",\"groupid\":0}','orPNxw1kU3eUQaL9M2SvPAoSZO3k') [ RunTime:0.006389s ]
+
+[ 2015-10-15T23:39:59+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index&signature=ce3c4dcacfa610b3329a6861a23cdef42e438eea&timestamp=1444923598&nonce=1963705546
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+
+[ 2015-10-15T23:40:49+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Weixin&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000155s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2015-10-15T23:40:54+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+
+[ 2015-10-15T23:40:55+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000234s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000197s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000115s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-10-15T23:40:55+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000202s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-10-15T23:40:55+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 58 行.
+
+[ 2015-10-15T23:40:55+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-10-15T23:40:55+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000164s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000142s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-10-15T23:41:00+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Good&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_good` LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good` LIMIT 0,12   [ RunTime:0.000944s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000253s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Menu&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000468s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000799s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000265s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000118s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 58 行.
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=Index&a=set
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000441s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity &quot;./Application/Tpl/Appdefault/config.xml&quot; /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 39 行.
+NOTIC: [2] Creating default object from empty value /Library/WebServer/Documents/weixin/Application/Lib/Action/Admin/IndexAction.class.php 第 41 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000667s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page /Library/WebServer/Documents/weixin/Application/Runtime/Cache/Admin/5caa7d2a62c4246eae83ec0e9c667f8c.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000192s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000112s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-10-15T23:41:01+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000274s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000125s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-10-15T23:45:59+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `login` = 'admin' ) LIMIT 1   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000590s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-10-15T23:46:01+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000344s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-10-15T23:46:03+08:00 ] 0.0.0.0 /weixin/index.php?g=Admin&m=User&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_user` LIMIT 1   [ RunTime:0.000159s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` LIMIT 0,12   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-10-15T23:46:15+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Member&a=login
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `login` = 'weilai' ) LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-10-15T23:46:17+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=member&uid=50004
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000592s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-10-15 23:46:16' )  [ RunTime:0.003431s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 99 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-10-14 23:46:16' )  [ RunTime:0.001949s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000336s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000322s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000826s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 1 ) AND ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000384s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 2 ) AND ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000213s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 3 ) AND ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000205s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 0 ) AND ( `uid` = 50004 ) LIMIT 1   [ RunTime:0.002164s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 1 ) AND ( `uid` = 50004 ) LIMIT 1   [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant confirm_price - assumed 'confirm_price' /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 612 行.
+NOTIC: [8] Use of undefined constant add_over_price - assumed 'add_over_price' /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 612 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_tx_record` WHERE ( `uid` = 50004 )  [ RunTime:0.000313s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000369s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 50004 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=50004 [ RunTime:0.004766s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000473s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000217s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-10-15T23:46:24+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000329s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-10-15 23:46:24' )  [ RunTime:0.000282s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 99 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-10-14 23:46:24' )  [ RunTime:0.000268s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000215s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000646s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000229s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Runtime/Cache/App/5c12bd36a175c9d1e42b90cca14d7e9f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-15T23:46:28+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=fenlei
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000582s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-10-15 23:46:28' )  [ RunTime:0.000261s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 99 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-10-14 23:46:28' )  [ RunTime:0.000185s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000106s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.000501s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000227s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000138s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000205s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000118s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-10-15T23:46:29+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=listsp&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000259s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-10-15 23:46:29' )  [ RunTime:0.000253s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 99 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-10-14 23:46:29' )  [ RunTime:0.000160s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000104s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Runtime/Cache/App/5c12bd36a175c9d1e42b90cca14d7e9f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-10-15T23:46:31+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=index&id=1
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000233s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50004 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-10-15 23:46:31' )  [ RunTime:0.000212s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 99 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-10-14 23:46:31' )  [ RunTime:0.000160s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.000126s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000206s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000235s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE ( `pay_status` = 1 ) AND ( `time` >= '2015-10-15 00:00:00' ) LIMIT 1   [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: alipay /Library/WebServer/Documents/weixin/Application/Runtime/Cache/App/b9ad205db0625548b748a5b0a6de452b.php 第 152 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000190s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-10-15T23:46:31+08:00 ] 0.0.0.0 /weixin/index.php/App/Index/fetchgooddetail
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Dispatcher.class.php 第 263 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000431s ]
+
+[ 2015-10-15T23:46:49+08:00 ] 0.0.0.0 /weixin/index.php/App/Index/addorder
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Dispatcher.class.php 第 263 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 850 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 851 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 866 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE ( `pay_status` = 1 ) AND ( `time` >= '2015-10-15 00:00:00' ) LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000825s ]
+NOTIC: [8] Undefined variable: weixin /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 923 行.
+SQL: UPDATE `wemall_user` SET `username`='1',`phone`='18607097289',`address`='江西省,南昌市,安义县,1',`weixin`=null WHERE ( `id` = 50004 ) [ RunTime:0.000664s ]
+SQL: INSERT INTO `wemall_order` (`orderid`,`totalprice`,`pay_style`,`pay_status`,`note`,`order_status`,`time`,`cartdata`,`phone`,`address`,`shouhuoname`,`user_id`) VALUES ('201510152346499','100.00','微信支付',0,'',0,'2015/10/15 23:46:49','[{\"name\":\"测试1\",\"num\":\"1\",\"price\":\"100\"}]','18607097289','江西省,南昌市,安义县,1','1',50004) [ RunTime:0.002731s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000269s ]
+
+[ 2015-10-15T23:46:49+08:00 ] 0.0.0.0 /weixin/index.php/App/Index/getorders
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Dispatcher.class.php 第 263 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `user_id` = 50004 ) ORDER BY id desc  [ RunTime:0.000258s ]
+
+[ 2015-10-15T23:46:49+08:00 ] 0.0.0.0 /weixin/index.php/App/Index/getorders
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Dispatcher.class.php 第 263 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 665 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50004' ) LIMIT 1   [ RunTime:0.000237s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `user_id` = 50004 ) ORDER BY id desc  [ RunTime:0.000374s ]
+
+[ 2015-10-15T23:46:54+08:00 ] 0.0.0.0 /weixin/index.php?g=App&m=Index&a=pay&totalprice=100.00&cart_name=%E6%B5%8B%E8%AF%951&uid=50004&orderid=201510152346499
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: debug /Library/WebServer/Documents/weixin/Application/Lib/Action/App/IndexAction.class.php 第 5 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000148s ]
+
+[ 2015-10-15T23:51:27+08:00 ] 127.0.0.1 /weixin/index.php?g=Admin&m=Wechat&a=index
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Public/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Library/WebServer/Documents/weixin/Core/Lib/Core/Db.class.php 第 1207 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/weixin/Core/Lib/Driver/Db/DbMysql.class.php 第 109 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+

@@ -1,0 +1,199 @@
+<include file="Public:header"/>
+<div>筛选:
+<select onchange=mbar(this) name="select">
+	<option >全部</option>
+	<option value="{:U('Admin/Order/index',array('type'=>0))}">未发货</option>
+	<option value="{:U('Admin/Order/index',array('type'=>1))}">已发货</option>
+	<option value="{:U('Admin/Order/index',array('type'=>2))}">已收货</option>
+	<option value="{:U('Admin/Order/index',array('type'=>3))}">已完成</option>
+	<option value="{:U('Admin/Order/index',array('type'=>4))}">已退货</option>
+	<option value="{:U('Admin/Order/index',array('type'=>5))}">已支付</option>
+	<option value="{:U('Admin/Order/index',array('type'=>6))}">已支付未发货</option>
+</select>
+<span><input type='text' id='order'><input type='button' value='订单编号搜索' onclick='s_order();'></span>
+<!span><input type='button' value='导出未发货订单' onclick='import_order();'></span-->
+<!--div>
+<form method="post" action="{:U('Admin/Order/upexcel')}" enctype="multipart/form-data">
+<span style="float:left">导入发货订单</span><span style="float:left"><input  type="file" name="file_stu" /></span><span  style="float:left"><input type="submit"  value="发货" /></span>
+</form>
+</div-->
+</div>
+<script>
+function mbar(sobj) {
+	var docurl =sobj.options[sobj.selectedIndex].value;
+	if (docurl != "") {
+	   open(docurl,'_self');
+	   sobj.selectedIndex=0;
+	   sobj.blur();
+	}
+}
+
+function s_order()
+{
+	var docurl = "{:U('Admin/Order/index')}"+'&order='+$('#order').val();
+	open(docurl,'_self');
+}
+
+function import_order()
+{
+	var docurl = "{:U('Admin/Order/import')}";
+	open(docurl,'_self');
+}
+</script>
+<div class="col-sm-12 widget-container-span">
+	<div class="widget-box transparent">
+		<div class="widget-body">
+			<div class="widget-main padding-12 no-padding-left no-padding-right">
+				<div class="tab-content padding-4">
+					<div id="home1" class="tab-pane in active">
+						<div class="row">
+							<div class="col-xs-12 no-padding-right">
+								<div class="table-responsive">
+									<table id="sample-table-1"
+										class="table table-striped table-bordered table-hover">
+										<thead>
+											<tr>
+												<th class="center"><label> <input type="checkbox" class="ace"> <span class="lbl"></span>
+												</label></th>
+												<th>订单编号</th>
+												<th>联系人|联系方式|地址</th>
+												<th>总金额</th>
+												<th>支付</th>
+												<th>发货</th>
+												<th>创建时间</th>
+												<th>备注</th>
+												<th>详情</th>
+												<th>快递信息</th>
+												<th>订单操作</th>
+												<th>特殊操作</th>
+											</tr>
+										</thead>
+
+										<tbody>
+										<volist name="result" id="result">
+											<tr>
+												<td class="center"><label> <input type="checkbox" class="ace"> <span class="lbl"></span>
+												</label></td>
+												<td>{$result.orderid}</td>
+												<td>{$result.shouhuoname}|{$result.phone}<br/>{$result.address}</td>
+												<td>{$result.totalprice}</td>
+												<td><if condition="$result['pay_status'] eq 1">已付<else/>未付</if></td>
+												<td>
+													<if condition="$result['order_status'] eq 0">未发</if>
+													<if condition="$result['order_status'] eq 1">已发</if>
+													<if condition="$result['order_status'] eq 2">已收</if>
+													<if condition="$result['order_status'] eq 3">完成</if>
+													<if condition="$result['order_status'] eq 4">已退</if>
+												</td>
+												<td>{$result.time}</td>
+												<td>{$result.note}</td>
+												<td style="width:65px;">
+													<div class="btn-group" style="position: absolute;">
+														<a class="btn btn-white btn-sm" data-toggle="dropdown">详情 <i class="fa fa-angle-down"></i></a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a>
+																	<table style="text-align: center;">
+																		<tr>订单商品详情：</tr>
+																		<tr>
+																			<td>商品名称|</td>
+																			<td>商品价格|</td>
+																			<td>商品数量</td>
+																		</tr>
+																		<php>
+																		$json = $result[cartdata];
+																		$data = json_decode($json,true);
+																		for($i=0;$i < count($data);$i++){
+																			 echo '<tr><td>'.$data[$i][name].'</td><td>'.$data[$i][price].'</td><td>'.$data[$i][num].'</td></tr>';
+																		}
+																		</php>
+																	</table>
+															</a></li>
+														</ul>
+													</div>
+												</td>
+												<td>
+													快递单号：<input type='text' name='num' id='num_{$result.id}' value='<php>$json = $result[order_info];$data = json_decode($json,true);echo $data[num]</php>'><br/>
+													快递公司：<input type='text' name='name' id='name_{$result.id}' value='<php>$json = $result[order_info];$data = json_decode($json,true);echo $data[name]</php>'><input type='button' value='修改' onclick="submit_order_info({$result.id})">
+												</td>
+												<td>
+													<if condition="$result['order_status'] eq 0"><a href="{:U('Admin/Order/publish',array('id'=>$result['id']))}" class="btn btn-white btn-sm">现在发货</a></if>
+													<if condition="$result['order_status'] neq 4"><a href="{:U('Admin/Order/txpublish',array('id'=>$result['id']))}" class="btn btn-white btn-sm">退货</a></if>
+													<a class="btn btn-white btn-sm" href="{:U('Admin/Order/del',array('id'=>$result['id']))}">删除</a>
+												</td>
+												<td>
+													<a href="{:U('Admin/Order/payComplete',array('id'=>$result['id']))}" class="btn btn-white btn-sm">我支付</a>
+												</td>
+											</tr>
+										</volist>
+										</tbody>
+									</table>
+									<div class="pagination" style="margin:0px;">
+									    {$page}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script>
+					function submit_order_info(id)
+					{
+						var num = $('#num_'+id).val();
+						var name = $('#name_'+id).val();
+						$.ajax({
+							type : 'POST',
+							url : '{:U("Admin/Order/set_order_info")}',
+							data : {
+								num : num,
+								id : id,
+								name : name
+							},
+							success : function (response , status , xhr) {
+								alert('信息已录入');
+							},
+							beforeSend : function(){
+							},
+							complete : function(){
+							}
+						});
+					}
+					</script>
+					<div id="home2" class="tab-pane in">
+						<form class="form-horizontal J_ajaxForm" id="myform" action="{:U('Admin/Menu/addmenu')}" method="post">
+							<div class="tabbable">
+								<div class="tab-content">
+									<div class="tab-pane active">
+										<table cellpadding="2" cellspacing="2" width="100%">
+											<tbody>
+												<tr>
+													<td width="140">上级:</td>
+													<td>
+														<select name="parent" class="normal_select">
+															<option value="0">作为一级分类</option>
+															<volist name="menulist" id="menulist">
+																<option value="{$menulist.id}">{$menulist.name}</option>
+															</volist>
+														</select>
+													</td>
+												</tr>
+												<tr>
+													<td>名称:</td>
+													<td><input type="text" class="input" name="name"
+														value=""><input type="hidden" name="addmenu" value="0"></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="form-actions">
+								<button class="btn btn-primary btn_submit J_ajax_submit_btn"
+									type="submit">提交</button>
+								<a class="btn" href="">返回</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

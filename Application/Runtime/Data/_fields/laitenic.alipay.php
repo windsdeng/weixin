@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'alipayname', 2 => 'partner', 3 => 'key', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'alipayname' => 'varchar(100)', 'partner' => 'varchar(100)', 'key' => 'varchar(100)', ), );?>

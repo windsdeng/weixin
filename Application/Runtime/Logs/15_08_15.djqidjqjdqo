@@ -1,0 +1,18 @@
+[ 2015-08-15T18:40:27+08:00 ] 127.0.0.1 /index.php?g=App&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.163952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.164076s ]
+NOTIC: [8] Undefined index:  debug D:\Site\demo9\wwwroot\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50001' ) LIMIT 1   [ RunTime:0.119311s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 50001 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-08-15 18:39:56' )  [ RunTime:3.189955s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Site\demo9\wwwroot\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-08-14 18:39:59' )  [ RunTime:1.206987s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Site\demo9\wwwroot\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:8.894583s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.088266s ]
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.120354s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = '50001' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.073243s ]
+NOTIC: [8] Undefined index:  id D:\Site\demo9\wwwroot\Application\Lib\Action\App\IndexAction.class.php 第 501 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.042995s ]
+

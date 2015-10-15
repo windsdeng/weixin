@@ -1,0 +1,1 @@
+<?php $tixianinfo = '{"shouhuo":1,"tixian":1,"jine":1,"dingdan":20000}';?>

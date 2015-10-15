@@ -1,0 +1,950 @@
+[ 2015-07-25T21:29:21+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=2609d31a9434e64223e5101060e42bc08a83caa3&timestamp=1437830961&nonce=1964303040
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wemall_wxconfig` [ RunTime:0.002930s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:29:30+08:00 ] 122.70.7.18 /index.php?g=App&m=Index&a=member&refresh=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:29:32+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=member&refresh=1&code=00122d7b8386fb35df3b90fce6a08dcu&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_user` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_level` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:29:32' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `wemall_order` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:29:32' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `wemall_info` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 1 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 2 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 3 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_tx_record` [ RunTime:0.001953s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 0 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 1 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant confirm_price - assumed 'confirm_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+NOTIC: [8] Use of undefined constant add_over_price - assumed 'add_over_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+SQL: SELECT * FROM `wemall_tx_record` WHERE ( `uid` = 85032 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85032 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:30:51+08:00 ] 122.70.7.18 /index.php?g=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:30:52+08:00 ] 122.70.7.18 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T21:30:52+08:00 ] 122.70.7.18 /index.php?g=Admin&m=Index&a=set
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "./Application/Tpl/Appdefault/config.xml" E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\Admin\IndexAction.class.php 第 39 行.
+NOTIC: [2048] Creating default object from empty value E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\Admin\IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `wemall_alipay` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_admin`  [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\Admin\a590f29977ae89b273aa7a2874d3b3f3.php 第 320 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:30:52+08:00 ] 122.70.7.18 /index.php?g=App&m=Member&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:30:54+08:00 ] 122.70.7.18 /index.php?g=Admin&m=Weixin&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_wxconfig` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wemall_wxmenu` [ RunTime:0.002930s ]
+SQL: SELECT * FROM `wemall_wxmenu`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_wxmessage` [ RunTime:0.001953s ]
+SQL: SELECT * FROM `wemall_wxmessage`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:31:51+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=0cd9303560d5dfbd512bdbe788b4dbf596c3c62f&timestamp=1437831111&nonce=2006587273
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:31:52+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=member&refresh=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:31:53+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=member&refresh=1&code=0418a5b00953115a7c212eed786586av&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:31:53' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:31:53' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 1 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 2 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 3 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 0 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 1 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant confirm_price - assumed 'confirm_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+NOTIC: [8] Use of undefined constant add_over_price - assumed 'add_over_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+SQL: SELECT * FROM `wemall_tx_record` WHERE ( `uid` = 85032 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85032 [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:31:55+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=member&refresh=1&code=00135ee8e10e4221abc23638c2c362eT&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:31:55' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:31:55' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 1 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 2 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 3 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 0 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 1 ) AND ( `uid` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant confirm_price - assumed 'confirm_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+NOTIC: [8] Use of undefined constant add_over_price - assumed 'add_over_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+SQL: SELECT * FROM `wemall_tx_record` WHERE ( `uid` = 85032 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85032 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85032 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:32:09+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:32:09' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:32:09' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_menu` [ RunTime:0.001954s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_good` [ RunTime:0.003906s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:32:33+08:00 ] 122.70.19.163 /index.php/App/Index/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order` WHERE ( `user_id` = 85032 ) ORDER BY id desc  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 742 行.
+
+[ 2015-07-25T21:32:36+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:32:36' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:32:36' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:32:53+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=fenlei
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:32:53' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:32:53' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:33:03+08:00 ] 122.70.19.163 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85032 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:33:03' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:33:03' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs0PfJO2vRLll06PGyz5vVxw' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:33:03+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=09cb8245c0ee9279adecb19fb5defab02bd10aa3&timestamp=1437831183&nonce=705994600
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:35:45+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=e1ede8ce519464069433f44cd0f04e22040b0d21&timestamp=1437831344&nonce=201238649
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:35:45+08:00 ] 106.39.253.70 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:35:46+08:00 ] 106.39.253.70 /index.php?g=App&m=Index&a=listsp&id=1&code=02187922fd685a3781e20f1e0cc9a6aY&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs9sIJJLWMzKzTh6-e6hZDoE' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85030 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:35:46' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:35:46' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs9sIJJLWMzKzTh6-e6hZDoE' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 80002 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 80002 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:35:54+08:00 ] 140.207.54.75 /index.php?g=Admin&m=Wechat&a=index&signature=6c92ca7a6cda08a27f917dc6352bc67ded8886cd&timestamp=1437831353&nonce=2020758654
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:35:55+08:00 ] 117.135.170.67 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T21:35:55+08:00 ] 140.207.185.124 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T21:35:55+08:00 ] 183.158.23.245 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:35:58+08:00 ] 183.158.23.245 /index.php?g=App&m=Index&a=listsp&id=1&code=021f59b91467328f19e0410c2db37a4W&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: INSERT INTO `wemall_user` (`uid`) VALUES ('omJPqsyOFf86RfoXdoWLOU3o-xjc') [ RunTime:0.000977s ]
+SQL: UPDATE `wemall_user` SET `uid`='omJPqsyOFf86RfoXdoWLOU3o-xjc',`wx_info`='{\"subscribe\":1,\"openid\":\"omJPqsyOFf86RfoXdoWLOU3o-xjc\",\"nickname\":\"\\u53ea\\u5fae\\u4fe1\\uff0c\\u4e0d\\u5168\\u4fe1\\uff01\",\"sex\":1,\"language\":\"zh_CN\",\"city\":\"\\u676d\\u5dde\",\"province\":\"\\u6d59\\u6c5f\",\"country\":\"\\u4e2d\\u56fd\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/6INbfsaV1wWy6xGiacT5dekFvnjibkzRjxibp6Tic3NoxrMKreItyCVoJAcM9YB79OSUDic0EqXCBmF6PNLR97ZibD9Tpbib7oXaWPz\\/0\",\"subscribe_time\":1437487897,\"remark\":\"\",\"groupid\":0}' WHERE ( `id` = 85033 ) [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85033 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:35:58' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:35:58' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+NOTIC: [8] Undefined index: member E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 153 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:36:17+08:00 ] 183.158.23.245 /index.php?g=App&m=Index&a=index_info&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85033 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:36:17' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:36:17' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 60 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 67 行.
+NOTIC: [8] Undefined index: commision E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\2199a8d3793fbe47f6e0e6471e35c536.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:36:19+08:00 ] 183.158.23.245 /index.php/App/Index/fetchgooddetail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:36:31+08:00 ] 183.158.23.245 /index.php?g=App&m=Index&a=index&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85033 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 21:36:31' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 21:36:31' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good`  [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order` WHERE ( `user_id` = 85033 ) AND ( `pay_status` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE ( `pay_status` = 1 ) AND ( `time` >= '2015-07-25 00:00:00' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: alipay E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Runtime\Cache\App\69f778eb79fcc4f9edc756ef98dbe8ea.php 第 152 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:36:31+08:00 ] 183.158.23.245 /index.php/App/Index/fetchgooddetail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:37:16+08:00 ] 183.158.23.245 /index.php/App/Index/addorder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 850 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 851 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 866 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order` WHERE ( `pay_status` = 1 ) AND ( `time` >= '2015-07-25 00:00:00' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: weixin E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 923 行.
+SQL: UPDATE `wemall_user` SET `username`='和一�\�',`phone`='13600582968',`address`='山西�\�,晋城�\�,阳城�\�,和田�\�',`weixin`=null WHERE ( `id` = 85033 ) [ RunTime:0.000976s ]
+SQL: INSERT INTO `wemall_order` (`orderid`,`totalprice`,`pay_style`,`pay_status`,`note`,`order_status`,`time`,`cartdata`,`phone`,`address`,`shouhuoname`,`user_id`) VALUES ('201507252137169','0.02','微信支付',0,'',0,'2015/07/25 21:37:16','[{\"name\":\"测试，加入我�\�\",\"num\":\"2\",\"price\":\"0.01\"}]','13600582968','山西�\�,晋城�\�,阳城�\�,和田�\�','和一�\�',85033) [ RunTime:0.001954s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:37:16+08:00 ] 183.158.23.245 /index.php/App/Index/getorders
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order` WHERE ( `user_id` = 85033 ) ORDER BY id desc  [ RunTime:0.000977s ]
+
+[ 2015-07-25T21:37:19+08:00 ] 183.158.23.245 /index.php?g=App&m=Index&a=pay&totalprice=0.02&cart_name=%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC&uid=omJPqsyOFf86RfoXdoWLOU3o-xjc&orderid=201507252137169
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_order` WHERE ( `orderid` = '201507252137169' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsyOFf86RfoXdoWLOU3o-xjc' ) LIMIT 1   [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: err_code E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 1146 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T21:37:35+08:00 ] 183.158.23.245 /index.php/App/Index/fetchgooddetail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:37:36+08:00 ] 183.158.23.245 /index.php/App/Index/fetchgooddetail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_good` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T21:50:50+08:00 ] 180.153.206.24 /index.php?g=App&m=Index&a=pay&totalprice=0.02&cart_name=%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC&uid=omJPqsyOFf86RfoXdoWLOU3o-xjc&orderid=201507252137169
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 1057 行.
+SQL: SELECT * FROM `wemall_alipay` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T22:00:56+08:00 ] 140.207.54.76 /index.php?g=Admin&m=Wechat&a=index&signature=41ebae98acc27f4b6a32e119045edf87d042050e&timestamp=1437832855&nonce=281408363
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T22:00:57+08:00 ] 106.39.253.70 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T22:00:59+08:00 ] 106.39.253.70 /index.php?g=App&m=Index&a=listsp&id=1&code=0119a51b48710aee186a8d338c330d1h&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs9sIJJLWMzKzTh6-e6hZDoE' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85030 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 22:00:59' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 22:00:59' )  [ RunTime:0.000976s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs9sIJJLWMzKzTh6-e6hZDoE' ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 80002 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 80002 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-25T22:01:01+08:00 ] 123.151.42.52 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T22:01:01+08:00 ] 111.30.132.205 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T23:21:22+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=55d514b0ab89dd00e9ba6adf180478bc3b8e01ba&timestamp=1437837678&nonce=1879619018
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsxXpjqFR_KOxGqBsZuhQj6Q' ) LIMIT 1   [ RunTime:0.001953s ]
+SQL: INSERT INTO `wemall_user` (`wx_info`,`uid`) VALUES ('{\"subscribe\":1,\"openid\":\"omJPqsxXpjqFR_KOxGqBsZuhQj6Q\",\"nickname\":\"\\u8336\\u5bb6\\u4eba\",\"sex\":1,\"language\":\"zh_CN\",\"city\":\"\\u6cc9\\u5dde\",\"province\":\"\\u798f\\u5efa\",\"country\":\"\\u4e2d\\u56fd\",\"headimgurl\":\"http:\\/\\/wx.qlogo.cn\\/mmopen\\/6INbfsaV1wUGbzNEHDWNBYeHJFmfSmjmO0JrES5Ve4reuFXpY5sN4kJUAjibnldRsGJwYMgbgJnWorEgzZ43fyNusPYjLBj65\\/0\",\"subscribe_time\":1437837678,\"remark\":\"\",\"groupid\":0}','omJPqsxXpjqFR_KOxGqBsZuhQj6Q') [ RunTime:0.000976s ]
+
+[ 2015-07-25T23:21:55+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=696efab7e64f0a43f781f3af1bb2833cd5995e37&timestamp=1437837714&nonce=738343402
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:21:57+08:00 ] 14.17.37.72 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T23:21:57+08:00 ] 120.33.106.202 /index.php?g=App&m=Index&a=listsp&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:21:58+08:00 ] 163.177.69.107 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T23:22:14+08:00 ] 120.33.106.202 /index.php?g=App&m=Index&a=listsp&id=1&code=021f30aed85ff2815ccdc3c0bc95ef40&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsxXpjqFR_KOxGqBsZuhQj6Q' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85034 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 23:22:14' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 23:22:14' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_menu`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_good` WHERE ( `menu_id` = 1 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqsxXpjqFR_KOxGqBsZuhQj6Q' ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:22:15+08:00 ] 140.207.54.77 /index.php?g=Admin&m=Wechat&a=index&signature=502c4a2c715aa614dd65a164818e39c9a7862c3e&timestamp=1437837734&nonce=849150391
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:23:17+08:00 ] 140.207.54.80 /index.php?g=Admin&m=Wechat&a=index&signature=9f54ef2b82be6df2d0fdcabe89e803d516b48c04&timestamp=1437837796&nonce=2141454967
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:23:18+08:00 ] 123.151.64.142 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T23:23:18+08:00 ] 222.35.154.60 /index.php?g=App&m=Index&a=member&refresh=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2015-07-25T23:23:19+08:00 ] 222.35.154.60 /index.php?g=App&m=Index&a=member&refresh=1&code=021cbe748c3b3a0e6f885ce8c2bec14I&state=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs30k9vTSVcYsUnihjPhrq-I' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_order_level` WHERE ( `level_id` = 85029 ) AND ( `status` = 2 ) AND ( `active_time` <= '2015-07-25 23:23:19' )  [ RunTime:0.000977s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 99 行.
+SQL: SELECT * FROM `wemall_order` WHERE ( `order_status` = 1 ) AND ( `pay_status` = 1 ) AND ( `time` <= '2015-07-25 23:23:19' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 132 行.
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `uid` = 'omJPqs30k9vTSVcYsUnihjPhrq-I' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 1 ) AND ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 2 ) AND ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_order_level` WHERE ( `status` = 3 ) AND ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 0 ) AND ( `uid` = 85029 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `wemall_tx_record` WHERE ( `status` = 1 ) AND ( `uid` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant confirm_price - assumed 'confirm_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+NOTIC: [8] Use of undefined constant add_over_price - assumed 'add_over_price' E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 612 行.
+SQL: SELECT * FROM `wemall_tx_record` WHERE ( `uid` = 85029 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_level` WHERE ( `status` = 0 ) AND ( `level_id` = 85029 ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85029 [ RunTime:0.013671s ]
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T23:23:31+08:00 ] 222.35.154.60 /index.php?g=App&m=Index&a=member_top&id=85029
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT level_id, SUM( totalprice ) AS total, wx_info
+			FROM (
+			SELECT level_id, totalprice
+			FROM  `wemall_order_level` 
+			INNER JOIN  `wemall_order` ON  `wemall_order_level`.`order_id` =  `wemall_order`.`orderid`
+			) AS t1
+			INNER JOIN  `wemall_user` ON  `wemall_user`.id = level_id
+			GROUP BY level_id
+			ORDER BY `total` DESC , `t1`.`level_id` DESC 
+			LIMIT 0 , 100 [ RunTime:0.016601s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85029 [ RunTime:0.000977s ]
+SQL: SELECT  SUM( totalprice ) AS total
+			FROM (
+			SELECT level_id, totalprice
+			FROM  `wemall_order_level` 
+			INNER JOIN  `wemall_order` ON  `wemall_order_level`.`order_id` =  `wemall_order`.`orderid`
+			) AS t1
+			GROUP BY level_id
+	having total>0 [ RunTime:0.013672s ]
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.143555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-25T23:37:04+08:00 ] 101.226.65.102 /index.php?g=App&m=Index&a=member_top&id=85029
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+SQL: SELECT * FROM `wemall_user` WHERE ( `id` = 85029 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT level_id, SUM( totalprice ) AS total, wx_info
+			FROM (
+			SELECT level_id, totalprice
+			FROM  `wemall_order_level` 
+			INNER JOIN  `wemall_order` ON  `wemall_order_level`.`order_id` =  `wemall_order`.`orderid`
+			) AS t1
+			INNER JOIN  `wemall_user` ON  `wemall_user`.id = level_id
+			GROUP BY level_id
+			ORDER BY `total` DESC , `t1`.`level_id` DESC 
+			LIMIT 0 , 100 [ RunTime:0.000000s ]
+SQL: SELECT sum(`totalprice`) as total FROM `wemall_order_level` inner join `wemall_order` on `wemall_order_level`.`order_id` =  `wemall_order`.`orderid` where `level_id`=85029 [ RunTime:0.000000s ]
+SQL: SELECT  SUM( totalprice ) AS total
+			FROM (
+			SELECT level_id, totalprice
+			FROM  `wemall_order_level` 
+			INNER JOIN  `wemall_order` ON  `wemall_order_level`.`order_id` =  `wemall_order`.`orderid`
+			) AS t1
+			GROUP BY level_id
+	having total>0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wemall_info` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-07-25T23:43:07+08:00 ] 140.207.54.80 /index.php?g=Admin&m=Wechat&a=index&signature=ea86a6f01285edcfe0c09eddb55452cdc8ecdb3e&timestamp=1437838987&nonce=49869356
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `wemall_wxconfig` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `wemall_wxmessage` WHERE ( `key` = '55' )  [ RunTime:0.000977s ]
+
+[ 2015-07-25T23:54:29+08:00 ] 101.226.65.102 /index.php?g=App&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: debug E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uid E:\wwwroot\wwwzhunacn_dge69mo6\www\Application\Lib\Action\App\IndexAction.class.php 第 58 行.
+
+[ 2015-07-25T23:54:29+08:00 ] 101.226.65.102 /index.php?g=App&m=Member&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+

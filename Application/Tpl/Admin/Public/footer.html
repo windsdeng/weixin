@@ -1,0 +1,53 @@
+		<script type="text/javascript">
+		/* 系统设置 */
+		$('.nav.nav-list li').eq(0).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(0).html('系统设置');
+			$('#main_iframe').attr("src","{:U('Admin/Index/set')}");
+		});
+		/* 商品分类 */
+		$('.nav.nav-list li').eq(1).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('商品分类');
+			$('#main_iframe').attr("src","{:U('Admin/Menu/index')}");
+		});
+		/* 商品管理 */
+		$('.nav.nav-list li').eq(2).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('商品管理');
+			$('#main_iframe').attr("src","{:U('Admin/Good/index')}");
+		});
+		/* 订单管理 */
+		$('.nav.nav-list li').eq(3).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('订单管理');
+			$('#main_iframe').attr("src","{:U('Admin/Order/index')}");
+		});
+		/* 用户管理 */
+		$('.nav.nav-list li').eq(4).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('用户管理');
+			$('#main_iframe').attr("src","{:U('Admin/User/index')}");
+		});
+		/* 微信管理 */
+		$('.nav.nav-list li').eq(5).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('微信管理');
+			$('#main_iframe').attr("src","{:U('Admin/Weixin/index')}");
+		});
+		/* 提现管理 */
+		$('.nav.nav-list li').eq(6).click(function() {
+			$('.nav.nav-list li').removeClass('active');
+			$(this).addClass('active');
+			$('#breadcrumbs ul li').eq(1).html('提现管理');
+			$('#main_iframe').attr("src","{:U('Admin/Tx/index')}");
+		});
+		</script>
+		</body>
+</html>
